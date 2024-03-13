@@ -13,20 +13,16 @@ function App() {
 
   return (
     <>
-
- <T2Intro />
- <FanLinks/>
-
-
-    <div className="App">
-      <Header />
-      <SarahConnor/>
-      <SaraQuiz />
-
-      <Footer/>
-    </div>
+      <div className="App">
+        <Header />
+        <T2Intro />
+        <SarahConnor />
+        <SaraQuiz />
+        <FanLinks />
+        <Footer />
+      </div>
     </>
-  )
+  );
 }
 
 export default App
