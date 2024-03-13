@@ -31,9 +31,9 @@ function Quiz() {
   };
 
   return (
-    <div>
+    <div className="quiz-container">
       {quizQuestions.map((question) => (
-        <div key={question.id}>
+        <div className='quizzes' key={question.id}>
           <div>{question.question}</div>
           <label>
             True
