@@ -3,6 +3,7 @@ import SaraQuiz from './components/SaraQuiz'
 import  { Header } from './components/HeaderMine'
 import './App.css'
 import { SarahConnor } from './components/SarahConnor'
+import { Footer } from './components/Footer'
 
 
 function App() {
@@ -14,6 +15,8 @@ function App() {
       <Header />
       <SarahConnor/>
       <SaraQuiz />
+
+      <Footer/>
     </div>
     </>
   )
