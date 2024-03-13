@@ -1,15 +1,13 @@
 import { useState } from 'react'
-import 
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+import T2Intro from './components/T2Intro'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-
+ <T2Intro />
     </>
   )
 }
