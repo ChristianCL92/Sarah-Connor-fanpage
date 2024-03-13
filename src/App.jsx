@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import SaraQuiz from './components/SaraQuiz'
+import  { Header } from './components/HeaderMine'
 import './App.css'
 
 
@@ -8,10 +9,10 @@ function App() {
 
   return (
     <>
-      <div className="App">
-        <SaraQuiz />
-      </div>
-
+    <div className="App">
+      <Header />   
+      <SaraQuiz />
+    </div>
     </>
   )
 }
