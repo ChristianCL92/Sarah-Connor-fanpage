@@ -2,14 +2,29 @@ import { useState } from 'react'
 import './App.css'
 import T2Intro from './components/T2Intro'
 import FanLinks from './components/FanLinks'
+import SaraQuiz from './components/SaraQuiz'
+import  { Header } from './components/HeaderMine'
+import './App.css'
+import { SarahConnor } from './components/SarahConnor'
+import { Footer } from './components/Footer'
+
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
+
  <T2Intro />
  <FanLinks/>
+
+
+    <div className="App">
+      <Header />
+      <SarahConnor/>
+      <SaraQuiz />
+
+      <Footer/>
+    </div>
     </>
   )
 }
