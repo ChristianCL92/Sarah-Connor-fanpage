@@ -1,14 +1,18 @@
+import { useState } from 'react'
+import SaraQuiz from './components/SaraQuiz'
 import  { Header } from './components/HeaderMine'
 import './App.css'
 
-function App() {
 
+function App() {
+  const [count, setCount] = useState(0)
 
   return (
     <>
-    <Header />
-   
-
+    <div className="App">
+      <Header />   
+      <SaraQuiz />
+    </div>
     </>
   )
 }
